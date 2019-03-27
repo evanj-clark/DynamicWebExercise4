@@ -14,12 +14,18 @@ function init(){
 			console.log(picsum);
 
 			var imageString = "";
-			for(var x = 500; x<550; x++){
-				imageString += "<img src='https://picsum.photos/200/300?image=" + picsum[x].id + "'>";
+		
+			for(var x = 540; x<550; x++){
+				imageString += "<img src='https://picsum.photos/380/380?image=" + picsum[x].id + "'> "+picsum[x].author+'<br>'+'<a href="'+picsum[x].post_url+'">View Image</a>';
+				
 			}
+			
 
 
 			document.getElementById("gallery").innerHTML = imageString;
+			
 	}
+
 }
+
 }

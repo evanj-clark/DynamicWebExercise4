@@ -1,5 +1,7 @@
 body {
 	font-family: arial;
+	  background: linear-gradient(0deg, #000000 0%, #ffffff 100%);
+
 }
 figure {
 	width: 20%;
@@ -12,5 +14,25 @@ figure img {
 
 figcaption {
 	text-align: right;
+}
+
+.images{
+	filter: grayscale();
+	color: #000000;
+	align-items: center;
+	text-align: center;
+	font-size: 20px;
+	text-shadow:
+		-1px -1px 0 #fff,
+		1px -1px 0 #fff,
+		-1px 1px 0 #fff,
+		1px 1px 0 #fff;
+}
+
+
+img{
+	display: grid;
+	margin-left: 40%;
+	margin-top: 5%
 }
 
